@@ -3,7 +3,8 @@ Lagrangian equation for efficient frontier without risk-free asset:
 $$L(x,\lambda)= 1/2 \omega ^T \sum \omega + \lambda（m- \omega ^T \mu) +\gamma (1- \omega ^T 1)$$
 
 solve using method of lagrange, get allocation of portfolio on efficient frontier without risk-free asset:
-                           $$\omega = \sum ^-1 ( \lambda \mu + \gamma 1)$$   (1)
+                           $$\omega = \sum ^{-1} ( \lambda \mu + \gamma 1)$$   (1)
+                           
  , =  , 1 ,   ,   , 
 m is target return.
 Lagrangian equation for efficient frontier with risk-free asset:
