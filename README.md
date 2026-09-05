@@ -1,6 +1,6 @@
 Lagrangian equation for efficient frontier without risk-free asset:
 
-$$L(x,\lambda)= \frac｛1}｛2} \omega ^T \sum \omega$$
+$$L(x,\lambda)= 1/2 \omega ^T \sum \omega + \lambda（m- \omega ^T \miu) +\gama (1- \omega ^T 1)$$
 
 solve using method of lagrange, get allocation of portfolio on efficient frontier without risk-free asset:
                                (1)
