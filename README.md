@@ -2,7 +2,7 @@ Lagrangian equation for efficient frontier without risk-free asset:
 
 $$L(x,\lambda)=\frac{1}{2}\omega^T \Sigma \omega + \lambda（m- \omega ^T \mu) +\gamma (1- \omega ^T 1)  \quad (1)$$  
 
-solve using method of lagrange, get allocation of portfolio on efficient frontier without risk-free asset:
+ where $\Sigma$ is assets covariance matrix, $\mu$ is assets return, solve (1) using method of lagrange, get allocation of portfolio on efficient frontier without risk-free asset:
 
 $$\omega = \Sigma ^{-1} ( \lambda \mu + \gamma 1)$$   
                            
