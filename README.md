@@ -1,6 +1,6 @@
 Lagrangian equation for efficient frontier without risk-free asset:
 
-$$L(x,\lambda)=1/2\omega^T \Sigma \omega + \lambda（m- \omega ^T \mu) +\gamma (1- \omega ^T 1)  \quad (1)$$  
+$$L(x,\lambda)=\frac{1}{2}\omega^T \Sigma \omega + \lambda（m- \omega ^T \mu) +\gamma (1- \omega ^T 1)  \quad (1)$$  
 
 solve using method of lagrange, get allocation of portfolio on efficient frontier without risk-free asset:
 
@@ -11,7 +11,7 @@ m is target return.
 
 Lagrangian equation for efficient frontier with risk-free asset:
 
-$$L(x,\lambda)= 1/2 \omega ^T \Sigma \omega + \lambda （m-rf- \omega ^T (\mu -rf1)) \quad (2)$$
+$$L(x,\lambda)= \frac{1}{2}\omega ^T \Sigma \omega + \lambda （m-rf- \omega ^T (\mu -rf1)) \quad (2)$$
 
 solve using method of lagrange, get allocation of portfolio on efficient frontier with risk-free asset:
 
@@ -20,4 +20,8 @@ $$\Sigma=\frac{(m-rf)\Sigma ^-1(\mu -rf1)}{(\mu -rf1)^T \Sigma ^-1 (\mu -rf1)}$$
 tangency portfolio satisfy both equation (1) and equation (2).
 Thus, allocation of tangency portfolio:
 
+$$\omega_T=\frac{\Sigma ^-1(\mu -rf1)}{1^T \Sigma ^-1(\mu -rf1)} $$
+
 Volatility of tangency portfolio:
+
+$$\sigma_T=\sqrt{\omega_T^T\Sigma\omega_T}$$
